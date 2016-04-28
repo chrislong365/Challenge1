@@ -1,0 +1,99 @@
+
+
+.blue, .grey, .yellow, .light_grey, .red, .teal, .magenta, .purple, .orange,
+ .green, .white, .light_green, .special-1{
+	position:relative;
+	height:50px;
+	width:50px;
+}
+
+div.frame{
+	position :absolute;
+	float:left;
+	top: 100px;
+	left:100px;
+	width: 1000px;
+	height:800px;
+	background-color: #d8d8d8;
+}
+div.col{
+	position :relative;
+	float: left;
+	width: 50px;
+	height:800px;
+}
+
+div.special-2{
+	position:relative;
+	width:25px;
+	height:50px;
+}
+div.half-1{
+	position:relative;
+	width: 25px;
+	height:50px;
+	background-color: #d8d8d8;
+}
+div.quarter-1{
+	background-color: #d8d8d8;
+}
+div.quarter-2{
+	background-color: #4a4a4a;
+}
+.quarter-1, .quarter-2{
+	position:relative;
+	float: right;
+	padding-left:25px;
+	width: 25px;
+	height:25px;
+}
+
+div.blue{
+	background-color: #4a90e2;
+}
+div.blue-2{
+	position:relative;
+	width: 50px;
+	height:25px;
+	background-color: #4a90e2;
+}
+div.grey{
+	background-color: #4a4a4a;
+}
+div.yellow{
+	background-color: #f8e71c;
+}
+div.light_grey{
+	background-color: #d8d8d8;
+}
+div.red{
+	background-color: #ce1126;
+}
+div.teal{
+	background-color: #50e3c2;
+}
+div.magenta{
+	background-color: #bd10e0;
+}
+div.purple{
+	background-color: #9013fe;
+}
+div.orange{
+	background-color: #f5a623;
+}
+div.green{
+	background-color: #417505;
+}
+div.white{
+	background-color: white;
+}
+div.light_green{
+	background-color: #7ed321;
+}
+
+imp#logo{
+	position: fixed;
+	right:50px;
+	top:50px;
+}
+
